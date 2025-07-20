@@ -55,3 +55,30 @@ header{
 
 
 
+.encabezado-menu .navegador ul li{
+    display: inline;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.encabezado-menu .navegador ul{
+    text-align: center;
+    margin-top: 13px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    background-color: rgb(182, 154, 118);
+
+}
+
+.encabezado-menu .navegador ul li a{
+    font-size: 18px;
+    font-weight: 530;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    padding: 2px 7px 2px 7px;
+}
+
+.encabezado-menu .navegador ul li a:hover{
+    color:rgb(110, 46, 8);
+}
