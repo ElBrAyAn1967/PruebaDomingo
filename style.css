@@ -52,25 +52,19 @@ header{
 }
 
 
-
-
-
 .encabezado-menu .navegador ul li{
     display: inline;
     margin-right: 50px;
     margin-left: 50px;
     font-weight: bold;
 }
-
 .encabezado-menu .navegador ul{
     text-align: center;
     margin-top: 13px;
     padding-top: 13px;
     padding-bottom: 15px;
     background-color: rgb(182, 154, 118);
-
 }
-
 .encabezado-menu .navegador ul li a{
     font-size: 18px;
     font-weight: 530;
@@ -79,6 +73,67 @@ header{
     padding: 2px 7px 2px 7px;
 }
 
-.encabezado-menu .navegador ul li a:hover{
-    color:rgb(110, 46, 8);
+
+
+.seccion__libros{
+    display: block;
+    padding: 5em 3em;
+}
+.barra_libros{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+/*ESTILO DE BOTON VER MAS*/
+.mas__libros{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#911c0d;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+.carrusel__libros{
+    display: flex;
+    overflow-x: scroll;
+    padding: 0.5em;
+}
+.box-compra{
+    display: flex;
+}
+
+
+
+
+
+
+div .box-compra{
+    padding: 1px;
+	gap: 2em;
+}
+
+.box-compra .precio{
+    color:#976905;
+    font-size: 18px;
+}
+
+.card-txt .btn-compra {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#ffffff;
+    font-size: 0.7em;
+	background: #911c0d;
+    border: 1px #911c0d;
+}
+
+.btn-compra {
+	display: inline-block;
+	padding: 0.6em 1.7em;
+	border-radius: 0.3em;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.09em;
 }
